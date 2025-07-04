@@ -1,10 +1,11 @@
-import { Button } from "@/components/ui/button"
+import { Button } from "@/components/ui/button";
 
 
 export default function Home() {
   return (
-    <main >
+    <main>
    <h1>welcome to pizza shope</h1>
+   <Button variant={'outline'}>button</Button>
    
 
     </main>
