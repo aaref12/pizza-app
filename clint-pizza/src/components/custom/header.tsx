@@ -6,10 +6,13 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select"
+import { ShoppingCart } from "lucide-react";
+import { Phone } from "lucide-react";
+import { Button } from "../ui/button";
 
 
 const Header = () => {
-    return<header className="bg-white w-full ml-15">
+    return<header className="bg-white">
          <nav className="container py-5 flex items-center justify-between"> 
            <div  className="flex items-center gap-2">
                <svg
@@ -37,6 +40,31 @@ const Header = () => {
          </Select>
 
             </div>
+
+
+         <div className="flex items-center gap-6">
+            <ul className="flex items-center font-medium gap-6">
+                <li>
+                  <a href="#" className="text-gray-600 hover:text-primary">Menu</a>
+                </li>
+                <li>
+                   <a href="#" className="text-gray-600 hover:text-primary">Orders</a>
+                </li>
+
+            </ul>
+            <div className="relative">
+                <a className="hover:text-primary" href='#'>
+                    <ShoppingCart />
+                </a>
+                <span className="absolute -top-2 -right-2 bg-primary text-white text-xs font-semibold px-1.5 rounded-full">3</span>    
+            </div>
+            <div className="flex items-center gap-2/">
+                <Phone />
+                <span className="text-gray-600 ml-2">+91 8407956860</span>
+            </div>
+           <Button>Logout</Button>
+         </div>
+
         
         </nav>
     </header>
