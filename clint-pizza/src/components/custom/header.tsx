@@ -58,12 +58,14 @@ const Header = () => {
                 </a>
                 <span className="absolute -top-2 -right-2 bg-primary text-white text-xs font-semibold px-1.5 rounded-full">3</span>    
             </div>
-            <div className="flex items-center gap-2/">
+            <div className="flex  hover:text-primary items-center gap-2/">
                 <Phone />
-                <span className="text-gray-600 ml-2">+91 8407956860</span>
+                <span className="text-gray-600 hover:text-primary ml-2">+91 8407956860</span>
             </div>
            <Button>Logout</Button>
          </div>
+
+         
 
         
         </nav>
