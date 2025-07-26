@@ -19,6 +19,7 @@ import {
 } from "@/components/ui/dialog"
 import Image from "next/image";
 import { Button } from '@/components/ui/button';
+import ToppingList from './topping-list';
 
 
 
@@ -146,7 +147,7 @@ const ProductCard = ({ product }: ProductCardProps) => {
 
                                     </div>
 
-
+                                 <ToppingList/>
 
                                 </div>
                             </div>
