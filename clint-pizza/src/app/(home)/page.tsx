@@ -72,9 +72,10 @@ export default function Home() {
 
       <section>
         <div className="container py-12">
-          <Tabs defaultValue="pizza" className="w-full">
+          <Tabs defaultValue="pizza" 
+          className="w-full">
             <TabsList>
-              <TabsTrigger value="Pizza">Pizza</TabsTrigger>
+              <TabsTrigger  value="Pizza">Pizza</TabsTrigger>
               <TabsTrigger value="Beverages"> Beverages</TabsTrigger>
             </TabsList>
             <TabsContent value="Pizza" className="text-md">
@@ -112,3 +113,4 @@ export default function Home() {
     </>
   );
 }
+
